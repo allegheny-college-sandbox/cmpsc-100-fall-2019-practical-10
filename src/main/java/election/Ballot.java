@@ -12,7 +12,7 @@ public class Ballot {
   /** Constructor.
    *
    */
-  public Ballot(){
+  public Ballot() {
     form = new ArrayList<Candidate>();
   }
   
@@ -21,7 +21,9 @@ public class Ballot {
    * @param candidate Candidate object to add
    */
   public void addCandidate(Candidate candidate) {
+    // Get index of candidate by name
     int index = searchCandidates(candidate.name);
+    // If the index returns not found (-1), add candidate
     if (index == -1) {
       this.form.add(candidate);
     }

@@ -15,6 +15,7 @@ public class RunElection {
    * @param args The command line arguments
    */
   public static void main(String[] args) {
+    // Read file in
     File file = null;
     Scanner input = null;
     try {
@@ -23,14 +24,17 @@ public class RunElection {
     } catch (FileNotFoundException noFile) {
       System.exit(0);
     }
+    // Initialize variables
     String name;
     Candidate candidate;
     Ballot ballot = new Ballot();
+    // Run ballot processing
     while (input.hasNext()) {
       name = input.nextLine();
       candidate = new Candidate(name);
       ballot.addCandidate(candidate);
     }
+    // Print ballot
     System.out.print(ballot);
   }
 }
