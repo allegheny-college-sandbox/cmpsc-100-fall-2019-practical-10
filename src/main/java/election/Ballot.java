@@ -44,6 +44,7 @@ public class Ballot {
   /** Searches a ballot form by candidate name and retrieves position.
    *
    * @param name Candidate name
+   * @return int Returns index of candidate in ArrayList or -1 if not found
    */
   private int searchCandidates(String name) {
     int index = 0;
