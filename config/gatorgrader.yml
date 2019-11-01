@@ -23,8 +23,8 @@ src/main:
             MatchFileFragment --fragment "{Your Name Here}" --count 0 --exact
             MatchFileFragment --fragment "if (index == -1)" --count 1 --exact
             MatchFileFragment --fragment "if (index != -1)" --count 1 --exact
-            MatchFileFragment --fragment "this.form.get(index);" --count 1 --exact
-            MatchFileFragment --fragment "this.form.add(candidate);" --count 1 -exact
+            MatchFileFragment --fragment "return this.form.get(index);" --count 1 --exact
+            MatchFileFragment --fragment "return this.form.add(candidate);" --count 1 --exact
             MatchFileRegex --regex "[a-zA-Z0-9]+\.name,[a-zA-Z0-9]+\.getVotes()" --count 1 --exact
             CountSingleLineComments --language Java --count 2
 
