@@ -2,7 +2,7 @@ package election;
 
 /** Creates a Candidate object.
  *
- * @author Douglas Luman
+ * @author {Your Name Here}
  */
 public class Candidate {
   
@@ -14,13 +14,13 @@ public class Candidate {
    * @param name Candidate's name
    */
   public Candidate(String name) {
-    this.name = name;
+    // TODO Set instance variable for name of candidate to name passed in.
   }
   
   /** Retrieves running vote total for candidate object.
    *
    */
   public int getVotes() {
-    return this.votes;
+    // TODO Return vote count.
   }
 }

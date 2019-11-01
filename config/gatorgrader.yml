@@ -34,6 +34,8 @@ src/main:
             ConfirmFileExists
             MatchFileFragment --fragment "TODO" --count 0 --exact
             MatchFileFragment --fragment "{Your Name Here}" --count 0 --exact
+            MatchFileFragment --fragment "this.name = name;" --count 1 --exact
+            MatchFileFragment --fragment "return this.votes;" --count 1 --exact
             
 ExecuteCommand --command "gradle build"
 CountCommandOutput --command "gradle -q --console plain run" --count 11
