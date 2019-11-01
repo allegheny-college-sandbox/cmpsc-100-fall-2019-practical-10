@@ -33,4 +33,4 @@ src/main:
             MatchFileFragment --fragment "{Your Name Here}" --count 0 --exact
             
 ExecuteCommand --command "gradle build"
-CountCommandOutput --command "gradle -q --console plain run" --count 12
+CountCommandOutput --command "gradle -q --console plain run" --count 11

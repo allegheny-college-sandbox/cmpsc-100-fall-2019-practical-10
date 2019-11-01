@@ -12,7 +12,7 @@ public class RunElection {
 
   /** Entry point.
    *
-   * @param args The command line arguments.
+   * @param args The command line arguments
    */
   public static void main(String[] args) {
     File file = null;
