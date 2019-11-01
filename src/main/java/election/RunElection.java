@@ -23,8 +23,6 @@ public class RunElection {
     } catch (FileNotFoundException noFile) {
       System.exit(0);
     }
-    return input;
-    }
     String name;
     Candidate candidate;
     Ballot ballot = new Ballot();
