@@ -14,7 +14,7 @@ public class RunElection {
    *
    * @param args The command line arguments.
    */
-  public static void main(String[] args){
+  public static void main(String[] args) {
     File file = null;
     Scanner input = null;
     try {

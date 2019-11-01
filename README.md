@@ -55,6 +55,7 @@ Your goal is to finish the ballot creation side of the program, incorporating `C
 - [ ] Only adds candidates to the ballot _one_ time
 * Looks like G. Wiz is up to something _fishy_...
 - [ ] Finishes the `searchCandidate` method to look up candidates by name in the `ArrayList`
+- [ ] Uses at least 2 single-line comments (one in `searchCandidate` and one in `addCandidate`) to describe functionality
 
 ### `Candidate.java`
 
@@ -71,10 +72,12 @@ Your goal is to finish the ballot creation side of the program, incorporating `C
 - [ ] Builds
 - [ ] Contains no `TODO` placeholders
 - [ ] Contains no `{Your Name Here}` placeholders
-- [ ] Reads an external candidate file (`inputs/candidate.list`)
+- [ ] Reads an external candidate file (`inputs/candidate.list`) using a `Scanner`
+- [ ] Implements a `while` loop to iterate on the `Scanner` object`
 - [ ] Uses a `Candidate` object to register each of the candidates
 - [ ] Adds each `Candidate` to the `Ballot` object using the `addCandidate` method of `Ballot`
 - [ ] Prints the completed `Ballot` object to the screen
+- [ ] Uses at least 4 single-line comments to organize sections of the code
 
 An example of the output looks like this:
 
