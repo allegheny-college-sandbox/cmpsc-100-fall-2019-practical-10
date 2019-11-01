@@ -1,0 +1,21 @@
+---
+name: practical-10
+break: true
+indent: 4
+---
+src/main:
+    java:
+        election/RunElection.java:
+            ConfirmFileExists
+            
+src/main:
+    java:
+        election/Ballot.java:
+            ConfirmFileExists
+
+src/main:
+    java:
+        election/Candidate.java:
+            ConfirmFileExists
+            
+ExecuteCommand --command "gradle build"
